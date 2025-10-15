@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!---->
+<html lang="en">
+  <!--html is the root-->
+  <head>
+    <!--metadata goes hear-->
+    <title>Travel Agency Page</title>
+    <meta charset="utf-8">
+    <meta name="description" 
+          content="Find your travel destination at the best price"
+      />
+  </head>
+  <body>
+    <!---->
+    <main>
+      <h1>Italy Grand Tour</h1>
+      <p>Travel and explore history and different cultures</p>
+      
+        <h2>Packages</h2>
+        <p>We have different travel options to suit you travel needs. We offer Group Travels aswell as Private Tours.</p>
+        
+        <ul>
+          <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+          <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+        </ul>
+      
+        <h2>Top Itineraries</h2>
+
+        <figure>
+          <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="the colossium"></a>
+  
+          <figcaption>Expore rome history and culture</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="alps grand tour"></a>
+          <figcaption>alps grand tour</figcaption>
+        </figure>
+        <figure>
+          <a href="https://www.freecodecamp.org/learn" target="_blank"><img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="Island cruise"></a>
+  
+          <figcaption>Cruise to the islands</figcaption>
+        </figure>
+
+    </main>
+    <footer>
+      <!--footer-->
+    </footer>
+  </body>
+</html>
