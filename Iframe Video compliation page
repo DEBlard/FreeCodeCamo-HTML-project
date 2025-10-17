@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+  <main>
+    <h1> Select Car reviews</h1>
+    <p>For car buyers in 2025, a fundamental decision involves the vehicle's powertrain, with options ranging from conventional internal combustion engines to advanced hybrid systems and fully electric motors, each offering distinct performance and efficiency benefits.</p>
+
+    <section>
+        <h2>Internal combustion engine</h2>
+        <p>For drivers prioritizing long-distance travel and rapid refueling, the conventional internal combustion engine remains a compelling choice. Its key benefit lies in unparalleled range and convenience, supported by a vast, established network of fueling stations.</p>
+         <iframe
+          title="combustion engine"
+          src="https://www.youtube.com/embed/WyeNLa23Gd4?si=OqOQQaovN9pWOP5v"
+          width="560"
+          height="315"
+        ></iframe>
+    </section>
+
+    <section>
+        <h2>Fully electric motor</h2>
+        <p>The primary benefit of electric vehicles lies in their revolutionary efficiency and performance. By harnessing electric power, EVs deliver significant savings on fuel and maintenance, eliminating routine oil changes and reducing operational costs.</p>
+        
+        <iframe
+          title="Electric vehicle"
+          src="https://www.youtube.com/embed/9D6SZfi01p4?si=3tenqchu6uQGVjLj"
+          width="560"
+          height="315"
+        ></iframe>
+    </section>
+    
+    <section>
+        <h2>Hybrid systems</h2>
+        <p>Hybrid vehicles offer a masterful balance, seamlessly blending the key benefits of both powertrains to eliminate traditional compromises. They provide superior fuel efficiency and reduced emissions in stop-and-go city driving by utilizing electric power, while simultaneously eliminating range anxiety with a ready-to-use gasoline engine for longer journeys.</p>
+        <iframe
+          title="Hybrid vehicle"
+          src="https://www.youtube.com/embed/A424QQnQUh8?si=ziFJ6johnmUGRY7E"
+          width="560"
+          height="315"
+        ></iframe>
+    </section> 
+  </main>
+</body>
+
+</html>
