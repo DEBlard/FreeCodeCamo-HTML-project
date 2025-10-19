@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Event Hub</title>
+</head>
+
+<body>
+    <header>
+        <h1>Event Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#upcoming-events">Upcoming Events</a></li>
+                <li><a href="#past-events">Past Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="upcoming-events">
+            <h2>Upcoming Events</h2>
+            <article><!--article 1-->
+                <h3>Build. Measure. Iterate.</h3>
+            <p>In today's world, great software isn't enough. You need the analytics to prove it. Join us for an immersive day where software engineering meets data science. We're bridging the gap between the code that builds your product and the data that defines its success. <em>Event date:<time timedate="2025-11-29T10:00"> 29 November 2025 at 10:00</time></em></p>   
+            </article>
+
+            <article><!--article 2-->
+              <h3>Building Software That Delivers Business Value</h3>
+              <p>Move beyond vanity metrics and learn how to leverage analytics for genuine business impact. This event is designed for leaders, product managers, and senior engineers who are ready to transform their software from a cost center into a strategic asset. <em>Event Date:<time timedate="2025-11-30T10:00"> 30 November 2025 at 10:00</time></em></p>  
+            </article>
+            </section>
+
+        <section id="past-events">
+            <h2>Past events</h2>
+
+            <article><!--article 1-->
+                <h3>Analytics for Engineers: A Hands-On Workshop</h3>
+            <p>Tired of guessing how your software is being used? Ready to move beyond basic pageview tracking? This intensive, hands-on workshop is designed specifically for software developers who want to embed powerful analytics directly into their applications.</p> 
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg" alt="back-end development">
+                <figcaption>IBM artificial Inteligence<figcaption>
+            </figure>  
+            </article>
+
+            <article><!--article 2-->
+              <h3>Event y</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            quod, voluptates, quae, quos quibusdam dolorum quia nemo repudiandae
+            quidem voluptatum quas. Quisquam quod, voluptates, quae, quos
+            quibusdam dolorum quia nemo repudiandae quidem voluptatum quas.</p> 
+            <figure>
+                <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="cloud">
+                <figcaption>hybrid cloud<figcaption>
+            </figure>  
+            </article> 
+            </article>
+            
+        </section>
+    </main>
+    <footer>
+    </footer>
+
+</body>
+
+</html>
