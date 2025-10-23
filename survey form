@@ -10,24 +10,29 @@
     <p id="description">Thank you for taking your time to take the survey</p>
     <form id="survey-form">
 
-      <label for="name">Name:</label>
+      <label id="name-label" for="name">Name:</label>
       <input 
+        required
         id="name"
         type="text"
+        name="name"
         placeholder="Enter Full-name"
       /><br />
 
-      <label for="email">Email:</label>
+      <label id="email-label" for="email">Email:</label>
       <input
+        required
         id="email"
         type="email"
+        name="email"
         placeholder="Enter Email-address"
       /><br />
       
-      <label for="number">Age:</label>
+      <label id="number-label" for="number">Age:</label>
       <input
         id="number"
         type="number"
+        name="number"
         min=14
         max=100
         placeholder="Enter Age"
@@ -35,10 +40,10 @@
       /><br />
       <fieldset>
       <legend>Gender</legend>
-      <input id="male-option" type="radio" name="gender" />
+      <input value="female" id="male-option" type="radio" name="gender" />
           <label for="male-option">Male</label>
-          <input id="female-option" type="radio" name="gender" />
-          <label for="female-option">Female</label>
+          <input value="female" id="female-option" type="radio" name="gender" />
+          <label  for="female-option">Female</label>
       </fieldset>
         <p> <label for="best-poem">Please choose the one you believe best represents the heart of this book</label></p>
         <select id="dropdown">
