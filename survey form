@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Book Survey</h1>
+    <p id="description">Thank you for taking your time to take the survey</p>
+    <form id="survey-form">
+
+      <label for="name">Name:</label>
+      <input 
+        id="name"
+        type="text"
+        placeholder="Enter Full-name"
+      /><br />
+
+      <label for="email">Email:</label>
+      <input
+        id="email"
+        type="email"
+        placeholder="Enter Email-address"
+      /><br />
+      
+      <label for="number">Age:</label>
+      <input
+        id="number"
+        type="number"
+        min=14
+        max=100
+        placeholder="Enter Age"
+        size="20"
+      /><br />
+      <fieldset>
+      <legend>Gender</legend>
+      <input id="male-option" type="radio" name="gender" />
+          <label for="male-option">Male</label>
+          <input id="female-option" type="radio" name="gender" />
+          <label for="female-option">Female</label>
+      </fieldset>
+        <p> <label for="best-poem">Please choose the one you believe best represents the heart of this book</label></p>
+        <select id="dropdown">
+            <option value="1">I WANT TO WRITE A POEM</option>
+            <option value="2">FEET ON THE GROUND</option>
+            <option value="3">WHAT MEETS NOT THE EYES</option>
+            <option value="4">LIVING IN THE NEVER</option>
+            <option value="5">UNRAVEL</option>
+            <option value="6">BLUES</option>
+            <option value="7">SERENITY</option>
+            <option value="8">AFORE THE STORM</option>
+            <option value="9">DOOM'S DAY</option>
+            <option value="10">DEAR DAD</option>
+            <option value="11">CATCH-22</option>
+            <option value="12">UNSPOKEN FEARS</option>
+            <option value="13">GUNS DOWN</option>
+            <option value="14">A DATE WITH DESTINY?</option>
+            <option value="15">FATUM NOS IUNGEBIT</option>
+            <option value="16">DEAR SOULMATE</option>
+            <option value="17">IF I AM HONEST</option>
+            <option value="18">PERFECT STORM</option>
+            <option value="19">THE TIP OF THE ICEBERG</option>
+            <option value="20">BABE IN THE WOODS</option>
+            <option value="22">DEEP DOWN</option>
+            <option value="23">SO FAR NOT GOOD</option>
+            <option value="24">TURN BACK TIME</option>
+            <option value="25">LOVE</option>
+            <option value="26">FAIR SHARE</option>
+            <option value="27">HOW SHE LOST IT</option>
+            <option value="28">SCARS</option>
+            <option value="29">BEEN THERE, DONE THAT</option>
+            <option value="30">MEET DEATH</option>
+            <option value="31">REALITY CHECK</option>
+            <option value="32">DESCENDANTS OF JUDAS</option>
+            <option value="33">LATE NIGHT DISCOVERIES</option>
+            <option value="34">BUT YOU KEEP TAKING</option>
+            <option value="35">CHEATING IS A VERB</option>
+            <option value="36">AN ENDLESS FALL</option>
+            <option value="37">MAYBE IGNORANCE IS BLISS</option>
+            <option value="38">NOT A HALLMARK MOMENT</option>
+            <option value="39">IN A NUTSHELL</option>
+            <option value="40">LORD IT OVER</option>
+            <option value="41">COME RAIN OR SHINE</option>
+            <option value="42">I WILL SAY</option>
+            <option value="43">KEEP THE PEACE</option>
+            <option value="44">DAMN STRAIGHT</option>
+            <option value="45">SAFE AND SOUND</option>
+            <option value="46">PULL YOURSELF TOGETHER</option>
+            <option value="47">RED</option>
+            <option value="48">A GOOD DEAL</option>
+            <option value="49">WHAT IS LEFT OF IT</option>
+            <option value="50">IN SEVENTH HEAVEN</option>
+            <option value="2">LIFE OF A COLOURING BOOK</option>
+          </select><br />
+          
+          <p>Thank you. What was the main reason for you choice</p>
+          <input
+            type="checkbox"
+            id="emotional"
+            name="emotional"
+            value="emotional"
+          />
+          <label for="emotional">Its emotional impact</label><br />
+
+          <input
+            type="checkbox"
+            id="language"
+            name="language"
+            value="language"
+          />
+          <label for="language">Its beautiful language and imagery</label><br />
+
+          <input
+            type="checkbox"
+            id="message"
+            name="message"
+            value="message"
+          />
+          <label for="message">The powerful message or theme</label><br />
+
+          <input
+            type="checkbox"
+            id="relatable"
+            name="relatable"
+            value="relatable"
+          />
+          <label for="relatable">It was the most relatable</label><br />
+
+        <label for="comments">Do you have any other comments, questions, or suggestions?</label>
+          <textarea cols="30" rows="10" name="comments" id="comments"></textarea>
+        <button id="submit" type="submit">Submit</button>
+    </form>
+
+  </body>
+</html>
