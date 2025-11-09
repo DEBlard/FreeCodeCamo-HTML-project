@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Movie Review</title>
+ </head>
+
+<body>
+  <main>
+    <h1>Movie Review: Rise Beyond 2</h1>
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/rise-beyond-2.png" alt="Ethan Carter standing and holding a guiter">
+    <p>an uplifting drama about a young man named Ethan who overcomes financial struggles and self-doubt to pursue his dream of becoming a world-class musician. The film follows his journey of resilience, guided by a mentor and a childhood friend, reminding viewers that potential lies beyond their fears. Other films with similar titles include the documentary <span style="font-weight: bold;">"Rising Beyond the Limits,"</span> about a dancer with a leg amputation, and the family sports drama "Rise," which tells the story of the Antetokounmpo family and their sons' journey to professional basketball.</p>
+
+    <p><strong>Movie Rating:</strong>
+    <span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span> (9/10)</p>
+    <h2>Cast Members</h2>
+    <ul>
+      <li><strong>James Holloway</strong> as Ethan Carter</li>
+      <li><strong>Olivia Sterling</strong> as Lena Mitchell</li>
+      <li><strong>William Lancaster</strong> as Professor Adams</li>
+      <li><strong>Maria Collins</strong> as Evelyn Carter</li>
+    </ul>
+  </main>
+</body>
+
+</html>
