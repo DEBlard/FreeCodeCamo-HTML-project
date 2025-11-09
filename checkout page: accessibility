@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+  <h1>Checkout</h1>
+  <section>
+    <fieldset>
+    <legend><h2>Your Cart</h2></legend>
+    <figure>
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="3D combination puzzle rubik's cube" />
+      <figcation>Rubik's Cube</figcation>
+    </figure>
+    <p><strong>Total: R20</strong></p>
+  </section>
+  
+  <section>
+    </fieldset>
+    <fieldset>
+    <legend><h2>Payment Information</h2></legend>
+    <form>
+      <fieldset>
+          
+          <label for="card-name">Cardholder name <span aria-hidden="true">*</span></label>
+          <input
+            id="card-name"
+            type="text"
+            name="card-name"
+            placeholder="e.g. John Doe"
+            required
+          /> <br>
+
+          <label for="card-number">Card number <span aria-hidden="true">*</span></label>
+          <input
+            id="card-number"
+            type="text"
+            name="card-number"
+            placeholder="e.g. 1234 2345 2455 1234"
+            required
+            size="25"
+            aria-describedby="card-number-help"
+          />
+          <p id="card-number-help"> Please entry your 16-digits card number without spaces</p>
+
+          <table>
+            <tr>
+                <td><label for="expiration">Expiration (MM/DD)<span aria-hidden="true">*</span></label></td>
+                <td><label for="security"> Card Security Code<span aria-hidden="true">*</span></label></td>
+            </tr>
+            <tr>
+
+              <td>
+                <input
+                  id="expiration"
+                  type="text"
+                  required
+                  name="expiration"
+                  placeholder="MM/DD"
+                />
+                </td>
+
+<td>
+                <input
+                  id="security"
+                  type="text"
+                  required
+                  name="secuity"
+                  placeholder="CSC"
+                />
+                </td>
+
+
+            </tr>
+          </table>
+      </fieldset>
+      </fieldset>
+      <button type="button">Place Order</button>
+    </form>
+  </section>
+</body>
+
+</html>
